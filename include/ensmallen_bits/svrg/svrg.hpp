@@ -12,7 +12,7 @@
 #ifndef ENSMALLEN_SVRG_SVRG_HPP
 #define ENSMALLEN_SVRG_SVRG_HPP
 
-#include <ensmallen_bits/sgd/decay_policies/no_decay.hpp>
+#include "../sgd/decay_policies/no_decay.hpp"
 
 #include "svrg_update.hpp"
 #include "barzilai_borwein_decay.hpp"

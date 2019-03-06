@@ -17,7 +17,7 @@
 // In case it hasn't been included yet.
 #include "spsa.hpp"
 
-#include <ensmallen_bits/function.hpp>
+#include "../function.hpp"
 
 namespace ens {
 

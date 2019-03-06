@@ -12,7 +12,7 @@
 #ifndef ENSMALLEN_PADAM_PADAM_HPP
 #define ENSMALLEN_PADAM_PADAM_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "padam_update.hpp"
 
 namespace ens {

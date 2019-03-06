@@ -12,7 +12,7 @@
 #ifndef ENSMALLEN_SA_SA_IMPL_HPP
 #define ENSMALLEN_SA_SA_IMPL_HPP
 
-#include <ensmallen_bits/function.hpp>
+#include "../function.hpp"
 
 namespace ens {
 

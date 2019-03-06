@@ -12,7 +12,7 @@
 #ifndef ENSMALLEN_FTML_FTML_HPP
 #define ENSMALLEN_FTML_FTML_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 
 #include "ftml_update.hpp"
 

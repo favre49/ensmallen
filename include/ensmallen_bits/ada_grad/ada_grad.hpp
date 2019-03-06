@@ -14,7 +14,7 @@
 #ifndef ENSMALLEN_ADA_GRAD_ADA_GRAD_HPP
 #define ENSMALLEN_ADA_GRAD_ADA_GRAD_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "ada_grad_update.hpp"
 
 namespace ens {

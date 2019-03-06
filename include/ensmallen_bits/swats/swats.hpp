@@ -13,7 +13,7 @@
 #ifndef ENSMALLEN_SWATS_SWATS_HPP
 #define ENSMALLEN_SWATS_SWATS_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "swats_update.hpp"
 
 namespace ens {

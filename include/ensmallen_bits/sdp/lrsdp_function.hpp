@@ -13,7 +13,7 @@
 #ifndef ENSMALLEN_SDP_LRSDP_FUNCTION_HPP
 #define ENSMALLEN_SDP_LRSDP_FUNCTION_HPP
 
-#include <ensmallen_bits/aug_lagrangian/aug_lagrangian.hpp>
+#include "../aug_lagrangian/aug_lagrangian.hpp"
 #include "sdp.hpp"
 
 namespace ens {

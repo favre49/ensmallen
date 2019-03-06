@@ -15,7 +15,7 @@
 // In case it hasn't been included yet.
 #include "frank_wolfe.hpp"
 
-#include <ensmallen_bits/function.hpp>
+#include "../function.hpp"
 
 namespace ens {
 

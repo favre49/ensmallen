@@ -15,7 +15,7 @@
 #ifndef ENSMALLEN_RMSPROP_RMSPROP_HPP
 #define ENSMALLEN_RMSPROP_RMSPROP_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "rmsprop_update.hpp"
 
 namespace ens {

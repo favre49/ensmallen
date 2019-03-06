@@ -12,8 +12,8 @@
 #ifndef ENSMALLEN_SPALERA_SGD_SPALERA_SGD_HPP
 #define ENSMALLEN_SPALERA_SGD_SPALERA_SGD_HPP
 
-#include <ensmallen_bits/spalera_sgd/spalera_stepsize.hpp>
-#include <ensmallen_bits/sgd/decay_policies/no_decay.hpp>
+#include "../spalera_sgd/spalera_stepsize.hpp"
+#include "../sgd/decay_policies/no_decay.hpp"
 
 namespace ens {
 

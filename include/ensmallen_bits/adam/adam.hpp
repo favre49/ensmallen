@@ -22,7 +22,7 @@
 #ifndef ENSMALLEN_ADAM_ADAM_HPP
 #define ENSMALLEN_ADAM_ADAM_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "adam_update.hpp"
 #include "adamax_update.hpp"
 #include "amsgrad_update.hpp"

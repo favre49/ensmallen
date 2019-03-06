@@ -14,8 +14,8 @@
 #ifndef ENSMALLEN_SGDR_SGDR_HPP
 #define ENSMALLEN_SGDR_SGDR_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
-#include <ensmallen_bits/sgd/update_policies/momentum_update.hpp>
+#include "../sgd/sgd.hpp"
+#include "../sgd/update_policies/momentum_update.hpp"
 #include "cyclical_decay.hpp"
 
 namespace ens {

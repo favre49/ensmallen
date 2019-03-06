@@ -12,7 +12,7 @@
 #ifndef ENSMALLEN_WN_GRAD_WN_GRAD_HPP
 #define ENSMALLEN_WN_GRAD_WN_GRAD_HPP
 
-#include <ensmallen_bits/sgd/sgd.hpp>
+#include "../sgd/sgd.hpp"
 #include "wn_grad_update.hpp"
 
 namespace ens {

@@ -13,7 +13,7 @@
 #ifndef ENSMALLEN_LBFGS_LBFGS_HPP
 #define ENSMALLEN_LBFGS_LBFGS_HPP
 
-#include <ensmallen_bits/function.hpp>
+#include "../function.hpp"
 
 namespace ens {
 

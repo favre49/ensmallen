@@ -13,8 +13,8 @@
 #ifndef ENSMALLEN_AUG_LAGRANGIAN_AUG_LAGRANGIAN_IMPL_HPP
 #define ENSMALLEN_AUG_LAGRANGIAN_AUG_LAGRANGIAN_IMPL_HPP
 
-#include <ensmallen_bits/lbfgs/lbfgs.hpp>
-#include <ensmallen_bits/function.hpp>
+#include "../lbfgs/lbfgs.hpp"
+#include "../function.hpp"
 #include "aug_lagrangian_function.hpp"
 
 namespace ens {
