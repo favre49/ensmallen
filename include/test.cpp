@@ -13,9 +13,10 @@ int main()
       responses, testResponses, shuffledResponses);
   ens::test::LogisticRegression<> lr(shuffledData, shuffledResponses, 0.5);
 
-  ens::AdaGrad ada(0.99, 32, 1e-8, 5000000, 1e-9, true);
+  ens::RandomSelection myPolicy(0.5);
+  ens::CMAES<ens::RandomSelection> approxOptimizer(0, -1, 1, 32, 200, 0.1e-4, myPolicy);
   arma::mat coordinates = lr.GetInitialPoint();
-  adagrad.Optimize(lr, coordinates);
+  approxOptimizer.Optimize(lr, coordinates);
 
   // Ensure that the error is close to zero.
   const double acc = lr.ComputeAccuracy(data, responses, coordinates);
