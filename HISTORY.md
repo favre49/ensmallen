@@ -1,6 +1,10 @@
 ### ensmallen 1.14.1
-###### ????-??-??
+###### 2019-03-09
   * Fixes for SPSA (#87).
+
+  * Optimized CNE and DE (#90). Changed initial population generation in CNE
+    to be a normal distribution about the given starting point, which should
+    accelerate convergence.
 
 ### ensmallen 1.14.0
 ###### 2019-02-20
